@@ -36,5 +36,7 @@ Secondly, this loss function `hinge` is compiling the model for SVM.
 
 
 CNNv1.ipynb -> This is the notebook corresponding to the first trial on the test data using CNN
+
 CNNv2.ipynb -> This is the notebook corresponding to the second trial on the test data using CNN.[The final model selected by the team]
+
 pretrained.ipynb -> Corresponds to the use of pretrained networks for classification
