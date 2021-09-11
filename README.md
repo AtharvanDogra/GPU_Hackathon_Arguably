@@ -20,9 +20,9 @@ CNNV2 | 0.9897
 
 
 
-From table 1 the model CNNV2 was selected as the best mdel since it had the best accuracy among all the tested model and nearly approached ~99%
+From ```Accuracy Scores``` the model CNNV2 was selected as the best mdel since it had the best accuracy among all the tested model and nearly approached ~99%
 
-The preformance of the network can be attributed to the use of (Atharvan)
+The preformance of the network can be attributed to the use of
 
 ```python
 cnn.add(Dense(1, kernel_regularizer=tf.keras.regularizers.l2(0.01),activation ='linear'))
@@ -34,9 +34,9 @@ cnn.compile(optimizer = 'adam', loss = 'hinge', metrics = ['accuracy'])
 ```
 Secondly, this loss function `hinge` is compiling the model for SVM. 
 
+### **File Descriptions**
+**CNNv2.ipynb -> This is the notebook corresponding to the second trial on the test data using CNN.[The final model selected by the team]**
 
 CNNv1.ipynb -> This is the notebook corresponding to the first trial on the test data using CNN
 
-CNNv2.ipynb -> This is the notebook corresponding to the second trial on the test data using CNN.[The final model selected by the team]
-
-pretrained_approach.ipynb -> Corresponds to the use of pretrained networks for classification
+pretrained.ipynb -> Corresponds to the use of pretrained networks for classification
