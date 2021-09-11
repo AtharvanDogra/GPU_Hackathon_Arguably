@@ -39,4 +39,4 @@ CNNv1.ipynb -> This is the notebook corresponding to the first trial on the test
 
 CNNv2.ipynb -> This is the notebook corresponding to the second trial on the test data using CNN.[The final model selected by the team]
 
-pretrained.ipynb -> Corresponds to the use of pretrained networks for classification
+pretrained_approach.ipynb -> Corresponds to the use of pretrained networks for classification
